@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-магазин</title>
+    <!-- Підключаємо оптимізований CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__logo">TechShop</h1>
+        <nav class="nav">
+            <a href="#" class="nav__link">Головна</a>
+            <a href="#" class="nav__link">Каталог</a>
+            <a href="#" class="nav__link">Контакти</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Адаптивна сітка товарів -->
+        <div class="product-grid">
+            
+            <!-- Картка 1 (Використання BEM: product-card__*) -->
+            <article class="product-card">
+                <img src="https://via.placeholder.com/250x150" alt="Ноутбук" class="product-card__img">
+                <h2 class="product-card__title">Ноутбук Pro 15</h2>
+                <p class="product-card__price">35 000 грн</p>
+                <!-- Спільний клас btn та BEM-клас product-card__btn -->
+                <button class="btn product-card__btn">Купити</button>
+            </article>
+
+            <!-- Картка 2 -->
+            <article class="product-card">
+                <img src="https://via.placeholder.com/250x150" alt="Смартфон" class="product-card__img">
+                <h2 class="product-card__title">Смартфон Ultra</h2>
+                <p class="product-card__price">25 000 грн</p>
+                <button class="btn product-card__btn">Купити</button>
+            </article>
+
+            <!-- Картка 3 -->
+            <article class="product-card">
+                <img src="https://via.placeholder.com/250x150" alt="Навушники" class="product-card__img">
+                <h2 class="product-card__title">Навушники Bass</h2>
+                <p class="product-card__price">4 500 грн</p>
+                <button class="btn product-card__btn">Купити</button>
+            </article>
+
+            <!-- Картка 4 -->
+            <article class="product-card">
+                <img src="https://via.placeholder.com/250x150" alt="Планшет" class="product-card__img">
+                <h2 class="product-card__title">Планшет Air</h2>
+                <p class="product-card__price">15 000 грн</p>
+                <button class="btn product-card__btn">Купити</button>
+            </article>
+
+        </div>
+    </main>
+
+</body>
+</html>
