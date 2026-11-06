@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <!-- Обов'язковий мета-тег для мобільних пристроїв -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивний інтернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка з Flexbox -->
+    <header class="header">
+        <div class="container header__container">
+            <h1 class="logo">TechStore</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h2 class="section-title">Каталог товарів</h2>
+            
+            <!-- Сітка товарів на CSS Grid -->
+            <div class="product-grid">
+                
+                <!-- Картка 1 -->
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Смартфон" class="product-card__img">
+                    <h3 class="product-card__title">Смартфон Pro Max</h3>
+                    <p class="product-card__price">35 000 грн</p>
+                    <button class="product-card__btn">Купити</button>
+                </article>
+
+                <!-- Картка 2 -->
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Ноутбук" class="product-card__img">
+                    <h3 class="product-card__title">Ноутбук Ultra 15</h3>
+                    <p class="product-card__price">42 000 грн</p>
+                    <button class="product-card__btn">Купити</button>
+                </article>
+
+                <!-- Картка 3 -->
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Планшет" class="product-card__img">
+                    <h3 class="product-card__title">Планшет Air</h3>
+                    <p class="product-card__price">15 000 грн</p>
+                    <button class="product-card__btn">Купити</button>
+                </article>
+
+                <!-- Картка 4 -->
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Навушники" class="product-card__img">
+                    <h3 class="product-card__title">Бездротові Навушники</h3>
+                    <p class="product-card__price">4 500 грн</p>
+                    <button class="product-card__btn">Купити</button>
+                </article>
+
+                <!-- Картка 5 -->
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Смарт-годинник" class="product-card__img">
+                    <h3 class="product-card__title">Смарт-годинник Fit</h3>
+                    <p class="product-card__price">6 200 грн</p>
+                    <button class="product-card__btn">Купити</button>
+                </article>
+
+                <!-- Картка 6 -->
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Колонка" class="product-card__img">
+                    <h3 class="product-card__title">Портативна колонка</h3>
+                    <p class="product-card__price">2 800 грн</p>
+                    <button class="product-card__btn">Купити</button>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
